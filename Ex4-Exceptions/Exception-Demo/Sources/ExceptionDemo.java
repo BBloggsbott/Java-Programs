@@ -32,7 +32,7 @@ class ExceptionDemo{
 			}
 		}
 		catch(OperationFailedException ofe){
-			System.out.println(ofe);
+			System.out.println(ofe.getCause());
 		}
 	}
 }

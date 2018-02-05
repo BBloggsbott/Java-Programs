@@ -7,7 +7,7 @@ class OperationFailedException extends Exception{
 	OperationFailedException(String s,Throwable Th){
 		super();
 		des=s;
-		System.out.println(Th);
+		this.initCause(Th);
 	}
 	public String toString(){
 		return ("Failed Operation: "+des);
