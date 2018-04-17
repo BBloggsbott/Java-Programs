@@ -1,2 +1,3 @@
-# JavaPrograms
-A collection of Java programs to demonstrate the different functionalities of Java.
+# Java-Programs
+
+This is the source code for my Java Program Repository website.
