@@ -11,7 +11,7 @@ class SurveyForm extends Frame implements ActionListener,TextListener{
   CardLayout card;
   boolean saveFlag = false;
   Connection conn;
-  MaxPracticeFrame(){
+  SurveyForm(){
     card = new CardLayout();
     setLayout(card);
     setSize(300,320);
@@ -206,7 +206,7 @@ class SurveyForm extends Frame implements ActionListener,TextListener{
               System.out.println("DOB: "+rs.getString("DOB"));
               System.out.println("Mother Tongue: "+rs.getString("MotherTongue"));
               System.out.println("Citizenship: "+rs.getString("Citizenship"));
-              System.out.println("Qualification: "+rs.getString("Qulification"));
+              System.out.println("Qualification: "+rs.getString("Qualification"));
               System.out.println("Martial: "+rs.getString("Martial"));
               System.out.println("Income: "+rs.getDouble("Income"));
               System.out.println("Tax: "+rs.getDouble("Tax"));
