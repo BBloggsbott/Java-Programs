@@ -53,7 +53,7 @@ public class JdbcDerbyConnection {
                 System.out.println("Connected to database #3");
             }
         } catch (SQLException ex) {
-            ex.printStackTrace();
+            System.out.println(ex);
         }
     }
 }
